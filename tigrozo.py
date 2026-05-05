@@ -1,7 +1,7 @@
 import tkinter as tk
 import random
 
-# ---------------- CONFIGURAÇÕES ----------------
+# ---------------- CONFIGURAÇÕES ---------------
 simbolos = ["🍒", "🍉", "🍇", "⭐", "🍋"]
 saldo = 20.0
 custo_giro = 2
