@@ -1,12 +1,14 @@
 import tkinter as tk
 import random
 
-# ---------------- CONFIGURAÇÕES ---------------
-simbolos = ["🍒", "🍉", "🍇", "⭐", "🍋"]
-saldo = 20000000000.0
+#config
+
+simbolos = ["🍆", "🥒", "🪵", "🐥", "📏"]
+saldo = 20.0
 custo_giro = 2
 
-# ---------------- FUNÇÃO PRINCIPAL ----------------
+#função girar():
+
 def girar():
     global saldo
 
