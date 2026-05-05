@@ -76,3 +76,5 @@ botao_girar.pack(pady=10)
 
 # ---------------- RODAR ----------------
 janela.mainloop()
+
+print()
