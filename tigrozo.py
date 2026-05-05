@@ -3,7 +3,7 @@ import random
 
 # ---------------- CONFIGURAÇÕES ---------------
 simbolos = ["🍒", "🍉", "🍇", "⭐", "🍋"]
-saldo = 20000000000.0
+saldo = 20.0
 custo_giro = 2
 
 # ---------------- FUNÇÃO PRINCIPAL ----------------
@@ -30,7 +30,7 @@ def girar():
         saldo += premio
         resultado_label.config(text=f"🎉 JACKPOT! +R$ {premio}", fg="green")
     elif resultado[0] == resultado[1] or resultado[1] == resultado[2] or resultado[0] == resultado[2]:
-        premio = 2.5
+        premio = 5
         saldo += premio
         resultado_label.config(text=f"✨ Quase! +R$ {premio}", fg="blue")
     else:
@@ -41,9 +41,9 @@ def girar():
 
 # ---------------- INTERFACE ----------------
 janela = tk.Tk()
-janela.title("🎰 Caça-Níquel")
+janela.title("🎰 triginho")
 janela.geometry("350x300")
-janela.resizable(False, False)
+janela.resizable(True, True)
 
 # Título
 titulo = tk.Label(janela, text="🎰 Caça-Níquel", font=("Arial", 18, "bold"))
